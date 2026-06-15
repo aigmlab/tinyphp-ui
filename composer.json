@@ -1,15 +1,17 @@
 {
-    "name": "tinyphporg/tinyphp-ui",
+    "name": "aigm/tinyphp-ui",
     "description": "UI component library of tinyphp framework 2.0",
     "type": "library",
     "version": "2.0.0",
-    "minimum-stability": "stable",    
-    "author": {
-        "name": "Da.Jin",
-        "email": "da.jin@tinyphp.org"
-    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Da.Jin",
+            "email": "da.jin@tinyphp.org"
+        }
+    ],
     "require": {
-        "php": ">7.3.0"
+        "php": ">= 7.3.0"
     },
     "autoload": {
         "psr-4": {
