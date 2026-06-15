@@ -4,8 +4,8 @@ tinyphp-ui
 简介   
 ----
 
-> 基于[tinyphp for PHP Frameworks](https://github.com/tinyphporg/tinyphp)的前端UI库  
-> 项目地址: https://github.com/tinyphporg/tinyphp
+> 基于[tinyphp for PHP Frameworks](https://gitee.com/aigm/tinyphp)的前端UI库  
+> 项目地址: https://gitee.com/aigm/tinyphp
 
 面向对象
 ----
@@ -24,12 +24,12 @@ tinyphp中的使用
 componser
 ----
 ```shell
- composer require tinyphporg/tinyphp-ui
+ composer require aigm/tinyphp-ui
 ```
 npm
 ---
 ```shell
-npm i tinyphporg/tinyphp-ui
+npm i aigm/tinyphp-ui
 ```
 profile.php
 ----
@@ -41,7 +41,7 @@ $profile['view']['ui']['public_path'] = '/tinyphp-ui/'; //公共访问地址
 $profile['view']['ui']['inject'] = TRUE;  //自动注入
 $profile['view']['ui']['template_plugin'] = '\\Tiny\\MVC\\View\\UI\\UIViewTemplatePlugin';
 $profile['view']['ui']['helper'] = '\\Tiny\\MVC\\View\\UI\\UIViewHelper';
-$profile['view']['ui']['template_dirname'] = '../vendor/tinyphporg/tinyphp-ui/templates/';
+$profile['view']['ui']['template_dirname'] = '../vendor/aigm/tinyphp-ui/templates/';
 
 // ui dev
 $profile['view']['ui']['dev_enabled'] = TRUE;
@@ -79,7 +79,7 @@ or
 ----
 
 ```shell
-cd vendor/tinyphporg/tinyphp-ui
+cd vendor/aigm/tinyphp-ui
 npm i 
 npm run dev
 #即可开启基于127.0.0.1:8080的调试webserver
