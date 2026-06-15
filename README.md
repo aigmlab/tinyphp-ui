@@ -4,8 +4,8 @@ tinyphp-ui
 简介   
 ----
 
-> 基于[tinyphp for PHP Frameworks](https://gitee.com/aigm/tinyphp)的前端UI库  
-> 项目地址: https://gitee.com/aigm/tinyphp
+> 基于[tinyphp for PHP Frameworks](https://github.com/aigmlab/tinyphp)的前端UI库  
+> 项目地址: https://github.com/aigmlab/tinyphp
 
 面向对象
 ----
